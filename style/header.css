@@ -1,0 +1,60 @@
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.left-section {
+display: flex;
+align-items: center;
+background-color: lightblue;
+width: 150px;
+}
+
+.menu {
+height: 24px;
+align-items: center;
+margin-left: 24px;
+margin-right: 24px;
+}
+.youtube-icon {
+height: 60px;
+}
+
+
+middle-section{
+    display: flex;
+flex: 1;
+margin-left: 70px;
+margin-right: 35px;
+align-items: center;
+max-width:300px ;
+background-color: blueviolet;
+}
+.search-button {
+height: 40px;
+width: 60px;
+}
+.placeholder  {
+
+    height: 40px;;
+    width: 60px;
+ }
+.miphone {
+  height: 40px;  
+  width: 40px;
+}
+.search-bar {
+    flex: 1;
+height: 40px;
+width: 40px;
+}
+.miphone-icon{
+height: 40px;
+width: 60px;
+}
+right-section {
+    background-color: aquamarine;
+ width: 200px;   
+}
